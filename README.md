@@ -18,10 +18,8 @@ This is the repository for the baisc login/signup of user and sharing their post
 
 ### Prerequisites
 
-- Basic understanding of node i.e. ablility to use and understand npm/nvm commands
-- Understanding of routes provided by router
-- Ability to connect node.js server to database such as mongodb
-- An account of Twilio and a Phone number linked with WhatsApp
+- Basic understanding of react native
+- Understanding of routes/different API's and what details they require or what details they returns.
 
 
 ### Installation
