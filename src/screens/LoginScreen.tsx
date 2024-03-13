@@ -30,6 +30,7 @@ export default function LoginScreen({ navigation }: any) {
         console.log(response.data);
         if (response.data.success === true) {
           toast.show("Welcome", { normalColor: "green" });
+          console.log(response.data.token)
           saveData(`${process.env.CACHE_KEY}`, {email:response.data.email, name:response.data.name, token: response.data.token, })
           navigation.reset({
             index: 0,
